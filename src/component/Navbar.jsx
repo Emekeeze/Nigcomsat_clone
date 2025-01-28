@@ -2,8 +2,8 @@ import image from "../assets/logo.png";
 
 export default function Navbar() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-sm bg-white navbar-danger">
+    <div className="sticky-top">
+      <nav className="navbar navbar-expand-sm bg-white navbar-primary position-sticky">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           {/* Logo */}
           <a className="navbar-brand" href="http://nigcomsat.gov.ng">
@@ -29,9 +29,9 @@ export default function Navbar() {
             className="collapse navbar-collapse justify-content-end"
             id="collapsibleNavbar"
           >
-            <ul className="navbar-nav">
+            <ul className="navbar-nav text-danger">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link " href="#">
                   HOME
                 </a>
               </li>

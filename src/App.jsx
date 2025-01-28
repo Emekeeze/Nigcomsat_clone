@@ -10,7 +10,7 @@ import Navbar from "./component/Navbar";
 import Carol from "./component/Carol";
 import Soon from "./component/Soon";
 import Servicee from "./component/Service";
-
+import Footer from "./component/Footer"
 
 function App() {
   
@@ -23,6 +23,7 @@ function App() {
       <Carol />
       <Soon />
       <Servicee />
+      <Footer />
       
       
     </>
