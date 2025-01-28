@@ -55,3 +55,13 @@
 .serve{
   font-size: 34px;
 }
+.heading-line::after {
+  content: "";
+  font-weight: bold;
+  color: #000;  /* Adjust this color to match your design */
+  display: block;
+  width: 20px;  /* Adjust the width of the "::" */
+  margin: 10px 0;  /* Space above and below */
+  border-top: 2px solid #000;  /* Adds a line beneath the "::" */
+  margin-left: 0;  /* Align to the left */
+}

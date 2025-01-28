@@ -1,0 +1,32 @@
+[
+    {
+      "image": "./asset/satelite1.png",
+      "title": "Broadcasting",
+      "subtitle": "Service"
+    },
+    
+    {
+        "image": "./asset/satelite2.png",
+        "title": "Transponder Leasing",
+        "subtitle": "Service"
+      },
+      
+    {
+        "image": "./asset/satelite3.png",
+        "title": "Broadband",
+        "subtitle": "Service"
+      },
+      
+    {
+        "image": "./asset/satelite4.png",
+        "title": "Navigation",
+        "subtitle": "Service"
+      },
+      
+    {
+        "image": "./asset/satelite5.png",
+        "title": "Value Added Service",
+        "subtitle": "Service"
+      }
+  ]
+  
